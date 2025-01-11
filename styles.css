@@ -89,7 +89,7 @@ h1 {
 }
 
 .info.container {
-  height: 700px;
+  min-height: 550px;
   background-color: white;
   margin: 0;
 }
@@ -125,4 +125,25 @@ h2 {
 .card p {
   text-align: center;
   color: #7d7d7e;
+}
+
+.quote {
+  min-height: 400px;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 200px;
+  justify-content: center;
+}
+
+.quote p:first-child {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+}
+.quoter {
+  align-self: flex-end;
+  margin: 10px 40px 0 0;
+  font-size: 30px;
+  font-weight: 700;
 }
